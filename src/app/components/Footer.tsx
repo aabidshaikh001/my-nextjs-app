@@ -66,12 +66,12 @@ const Footer = () => {
           <div className="col-span-1 flex flex-col justify-between mb-8">
             <h3 className="text-lg font-semibold mb-4">About & Help</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="hover:text-blue-800">Our Story</a></li>
-              <li><a href="#" className="hover:text-blue-800">Benefits</a></li>
-              <li><a href="#" className="hover:text-blue-800">Team</a></li>
-              <li><a href="#" className="hover:text-blue-800">Careers</a></li>
-              <li><a href="#" className="hover:text-blue-800">FAQs</a></li>
-              <li><a href="#" className="hover:text-blue-800">Contact Us</a></li>
+              <li><a className="hover:text-blue-800">Our Story</a></li>
+              <li><a className="hover:text-blue-800">Benefits</a></li>
+              <li><a className="hover:text-blue-800">Team</a></li>
+              <li><a className="hover:text-blue-800">Careers</a></li>
+              <li><a className="hover:text-blue-800">FAQs</a></li>
+              <li><a className="hover:text-blue-800">Contact Us</a></li>
             </ul>
           </div>
         </div>
