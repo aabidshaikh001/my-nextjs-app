@@ -204,6 +204,42 @@ const HomePage = () => {
   </div>
 </div>
 
+<section className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-white px-6 md:px-12 py-8">
+  <div className="flex flex-col md:flex-row items-center justify-between p-10 max-w-screen-xl mx-auto">
+    
+    {/* Left Column - Content */}
+    <div className="text-center md:text-left md:w-1/2">
+      <h1 className="text-4xl md:text-5xl font-medium text-gray-900 mb-6 leading-tight">
+        Revolutionizing Payments Collection with OneAtm
+      </h1>
+      <p className="text-gray-700 mb-6 text-lg md:text-xl font-medium">
+        OneAtm delivers innovative payment solutions tailored for businesses, offering a wide array of online and offline payment options, ensuring seamless transactions every time.
+      </p>
+      
+      {/* Features List */}
+      <ul className="list-disc list-inside text-gray-600 space-y-4 text-lg font-light">
+        <li>Recognized by the RBI as a trusted Payment Aggregator, ensuring secure and reliable services.</li>
+        <li>Powering payments for leading public and private sector banks such as Bank of India (BOI), Bank of Baroda (BOB), Indian Bank, Canara Bank, and IDFC First.</li>
+        <li>Access to over 1.4 million cash counters nationwide, enabling hassle-free offline payments for customers.</li>
+      </ul>
+    </div>
+
+    {/* Right Column - Image */}
+    <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
+    <Image
+          src="/okay.png" // Replace with the correct path to your image
+          alt="Effortless Payments"
+          width={700} // Set the desired width for the image
+          height={500} // Set the desired height for the image
+          quality={100} // Increase quality for better image resolution
+          className="w-full max-w-xs md:max-w-lg shadow-lg rounded-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
+        />
+    </div>
+  </div>
+</section>
+
+
+
 
       {/* India's Most-loved Payments App Section */}
       <div className="w-full max-w-6xl mx-auto py-20 flex flex-col md:flex-row items-center justify-between">
