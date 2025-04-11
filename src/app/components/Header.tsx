@@ -30,7 +30,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-10 shadow-md bg-white">
+    <header className="fixed top-0 left-0 right-0 z-50 shadow-md bg-white">
       <nav className="px-4 lg:px-6 py-2.5 max-w-screen-xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
