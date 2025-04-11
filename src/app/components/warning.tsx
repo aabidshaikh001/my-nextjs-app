@@ -2,6 +2,7 @@
 
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const Warning = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,10 +26,12 @@ const Warning = () => {
           >
             ×
           </button>
-          <img
+          <Image
             src="/warning.png" // Replace with your image path
             alt="Warning"
             className="w-full h-[500px] object-contain rounded-md"
+            width={500}
+            height={500}
           />
         </div>
       </div>
