@@ -189,7 +189,7 @@ const HomePage = () => {
             <Image
               src="/Map.webp"
               alt="Financial network map showing global payment connections"
-              className="max-w-full h-auto object-contain transition-transform duration-300 rounded-2xl shadow-2xl"
+              className="max-w-full h-auto object-contain transition-transform duration-300 cursor-pointer "
               style={{
                 transform: `perspective(1000px) rotateY(${tiltX}deg) rotateX(${tiltY}deg)`,
                 transition: "transform 0.3s ease-out",
